@@ -46,4 +46,19 @@ def recortar(nro,limInf,limSup):
         return nro
     
 print(recortar(23,20,30))
+
+
+#Ejercicio 6.
+def separar(listanum):
+    listaPares = []
+    listaImpares = []
+
+    for num in listanum:
+        if (num % 2) == 0:
+            listaPares.append(num)
+        else:
+            listaImpares.append(num)
     
+    return listaPares, listaImpares
+
+print(separar([2,3,5,7,8,12,15,18,23,24,28,31,34,37]))
