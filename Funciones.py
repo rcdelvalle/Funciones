@@ -34,4 +34,16 @@ def intermedio(num1,num2):
     return numIntermedio
 
 print(intermedio(89,97))
+
+
+#Ejercicio 5.
+def recortar(nro,limInf,limSup):
+    if nro < limInf:
+        return limInf
+    elif nro > limSup:
+        return limSup
+    else:
+        return nro
+    
+print(recortar(23,20,30))
     
