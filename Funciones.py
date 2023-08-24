@@ -26,4 +26,12 @@ def relacion(num1,num2):
         return 0
     
 print(relacion(7,3))
+
+
+#Ejercicio 4.
+def intermedio(num1,num2):
+    numIntermedio = (num1+num2) / 2
+    return numIntermedio
+
+print(intermedio(89,97))
     
